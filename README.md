@@ -1,2 +1,3 @@
-# AIDrivenEmailCampaign-Frontend
-AIDrivenEmailCampaign-Frontend
+##### How to run locally
+npm install
+npm run dev
