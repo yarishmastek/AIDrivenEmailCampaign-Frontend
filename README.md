@@ -1,4 +1,4 @@
-```markdown
+
 ##### How to run locally
 1. Clone the repository:
    ```sh
@@ -13,4 +13,3 @@
    ```sh
    npm run dev
    ```
-```
