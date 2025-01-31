@@ -28,7 +28,8 @@ const EmailCampaign = () => {
     setIsLoading(true);
     try {
       const response = await axios.post(
-        "https://284797de-2ca6-4294-903d-9fd803337a2a.mock.pstmn.io/email-customize",
+        // "https://284797de-2ca6-4294-903d-9fd803337a2a.mock.pstmn.io/email-customize",
+        "http://localhost:8080/email-customize",
         payload
       );
       setGeneratedEmailData(response.data.emailContent);
@@ -56,7 +57,8 @@ const EmailCampaign = () => {
     setIsLoading(true);
     try {
       const response = await axios.post(
-        "https://284797de-2ca6-4294-903d-9fd803337a2a.mock.pstmn.io/send-email",
+        // "https://284797de-2ca6-4294-903d-9fd803337a2a.mock.pstmn.io/send-email",
+        "http://localhost:8080/send-email",
         payload
       );
       showToast(response.data.message, "success");
