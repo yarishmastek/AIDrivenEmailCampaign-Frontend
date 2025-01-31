@@ -18,7 +18,7 @@ const Login = ({
 
   const handleUserLogin = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (formData.username === "admin" && formData.password === "admin") {
+    if (formData.username === "admin" && formData.password === "9980044534") {
       showToast("Login Successful", "success");
       localStorage.setItem("isLoggedIn", "true");
       setIsLoggedIn(true);
